@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/tetris');
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Tetris', sans-serif;
+  color: white;
+}
+
+.map {
+  box-sizing: content-box;
+  border-style: groove;
+  border-color: red yellow blue green;
+  border-width: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 520px;
+  background-color: black;
+}
+
+.map div{
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.tetromino {
+  background-color: #002aff;
+  border-style: groove;
+  border-width: 2px;
+}
+
+button{
+  height: 30px;
+  width: 75px;
+  font-size: 20px;
+  margin-top: 40px;
+  font-family: 'Tetris', sans-serif;
+}
+
+:nth-of-type(131) {
+  border: none !important;
+}
+:nth-of-type(132) {
+  border: none !important;
+}
+:nth-of-type(133) {
+  border: none !important;
+}
+:nth-of-type(134) {
+  border: none !important;
+}
+:nth-of-type(135) {
+  border: none !important;
+}
+:nth-of-type(136) {
+  border: none !important;
+}
+:nth-of-type(137) {
+  border: none !important;
+}
+:nth-of-type(138) {
+  border: none !important;
+}
+:nth-of-type(139) {
+  border: none !important;
+}
+:nth-of-type(140) {
+  border: none !important;
+}
